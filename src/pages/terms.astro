@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Terms of Service - Elevify" description="Terms of Service for the Elevify app">
+	<section class="py-32 relative z-10 min-h-screen">
+		<div class="max-w-4xl mx-auto px-6">
+			<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass border-white/10 text-sm font-medium text-gray-300 mb-6">
+				Legal Documentation
+			</div>
+			<h1 class="text-4xl lg:text-5xl font-bold text-white text-glow mb-4">Terms of Service</h1>
+			<p class="text-gray-400 mb-12 border-b border-white/10 pb-6">Last updated: {new Date().toLocaleDateString()}</p>
+			
+			<div class="glass-card rounded-3xl p-8 lg:p-12 text-gray-300 space-y-8 leading-relaxed">
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">1. Who we are</h2>
+					<p>These Terms of Service (“Terms”) govern your use of the Elevify mobile application (“App”) and related services (“Services”) provided by RGsoft (“we,” “us,” “our”). By accessing or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>
+				</div>
+				
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">2. The Services</h2>
+					<p>Elevify offers tools for personal reflection and self-expression, which may include, depending on the version of the App: dream journaling; AI-assisted dream interpretation; AI-generated dream imagery; AI-assisted chat (including a conversational “agent” experience); AI-assisted features described as therapy-style or coaching-style; mood and wellness-related tracking; planners and personal tasks; horoscopes; and interpretive or entertainment features such as tarot, coffee reading, palm reading, and face etching or similar image-based readings. Features may change over time; we may add, modify, or remove features.</p>
+				</div>
+				
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">3. No professional advice; entertainment and self-help</h2>
+					<p>The App and all AI-generated or algorithmic content (including any text that may sound supportive or clinical) are provided for informational, self-reflection, and entertainment purposes only. They do not constitute, and you must not rely on them as: medical, mental health, psychiatric, or psychological advice, diagnosis, or treatment; legal, financial, or tax advice; or professional counseling. Palm, tarot, coffee, face etching, horoscopes, and similar features are for entertainment and should not be used as a basis for important life, health, or financial decisions.</p>
+					<p class="mt-4">If you are in crisis, believe you may harm yourself or others, or have urgent health concerns, contact local emergency services or a qualified professional immediately. The App is not a replacement for in-person or licensed care.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">4. Eligibility; accounts</h2>
+					<p>You must be at least 13 (or the minimum age required in your country to consent to the processing of personal data) to use the App. You are responsible for your account credentials and for all activity under your account. You agree to provide accurate information where required. You may delete your account through in-app options where we offer that feature.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">5. Subscriptions, trials, and payments</h2>
+					<p>Some features may be offered free of charge with usage limits or a time-limited trial, and others may require a paid subscription available through the App Store or Google Play. Payments, billing, renewal, and cancellation of subscriptions are processed by the applicable platform (Apple or Google), in accordance with their terms and your account settings. We do not control the stores’ payment processes. Eligibility, pricing, and taxes are as shown in the App at the time of purchase.</p>
+					<p class="mt-4">Free trials (if offered) and plan limits are described in the App and may change. When a trial or limits end, some features may require a paid subscription or may become unavailable until you subscribe or when limits reset, as described in the App.</p>
+					<p class="mt-4">Refunds are handled according to the Apple or Google policies and procedures that apply to your purchase.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">6. License to use the App</h2>
+					<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App in line with these Terms, until terminated. You may not: copy, rent, sell, distribute, or sublicense the App; reverse engineer the App (except as allowed by law); use the App to build a competing product; circumvent technical limits, paywalls, or security; or use the App in violation of law or these Terms.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">7. Your content</h2>
+					<p>You may submit text, images, and other content to use certain features (for example, dream text or photos for readings). You represent that you have the right to provide such content. You retain ownership of your content, but you grant us a non-exclusive, worldwide, royalty-free license to host, process, store, display, and create derivative outputs (e.g. AI responses, formatted exports) as needed to run and improve the Services, protect safety, enforce our terms, and comply with law. You are responsible for your content. Do not upload unlawful content, content that infringes others’ rights, or content that is abusive or hateful. We may remove content or restrict accounts for violations.</p>
+					<p class="mt-4">AI outputs (responses, interpretations, or images) are generated for you; they may be inaccurate, incomplete, or offensive, and you use them at your own risk. Do not use outputs as professional advice (see Section 3).</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">8. Third-party services and AI processing</h2>
+					<p>The App relies on third-party providers (for example, cloud infrastructure, authentication, payment/subscription platforms, and AI model providers) to deliver the Services. Your use of those services may be subject to their terms and privacy practices. We describe how we process personal data in our <a href={import.meta.env.BASE_URL === '/' ? '/privacy-policy' : import.meta.env.BASE_URL + '/privacy-policy'} class="text-purple-400 hover:text-purple-300 underline">Privacy Policy</a>.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">9. Intellectual property</h2>
+					<p>The App, its branding, design, and our materials (excluding your content) are owned by us or our licensors. Except for the limited license in Section 6, no rights are granted to you. Our trademarks and logos may not be used without our prior written permission.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">10. Disclaimers</h2>
+					<p class="uppercase text-sm">TO THE FULLEST EXTENT PERMITTED BY LAW, THE APP AND SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. We do not warrant that the Services will be uninterrupted, error-free, or secure, or that AI outputs are accurate, reliable, or safe for any purpose. Some jurisdictions do not allow certain disclaimers; in those cases, our disclaimers apply to the maximum extent permitted.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">11. Limitation of liability</h2>
+					<p class="uppercase text-sm">TO THE FULLEST EXTENT PERMITTED BY LAW, WE (AND OUR AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AND SUPPLIERS) WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOST PROFITS, DATA, OR GOODWILL, ARISING FROM OR RELATED TO YOUR USE OF THE APP, EVEN IF WE WERE ADVISED OF THE POSSIBILITY. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF OR RELATING TO THESE TERMS OR THE APP WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU PAID US (IF ANY) FOR THE APP IN THE TWELVE (12) MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM, OR (B) FIFTY ($50) USD. This section does not limit liability where the law does not allow it (for example, gross negligence, fraud, or personal injury caused by our negligence, where such limits are prohibited).</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">12. Indemnity</h2>
+					<p>You will defend, indemnify, and hold harmless us and our affiliates from and against any claims, damages, losses, and expenses (including reasonable legal fees) arising from your content, your use of the App, or your violation of these Terms, to the extent permitted by law.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">13. Termination</h2>
+					<p>We may suspend or terminate your access to the App for conduct that we believe breaches these Terms or harms the Services or other users, or for operational or legal reasons. You may stop using the App at any time. Provisions that by their nature should survive (e.g. Sections 3, 5, 7, 8, 9, 10, 11, 12, 15, 16) will survive termination.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">14. Changes to the App or the Terms</h2>
+					<p>We may change the App or these Terms. We will post the updated Terms and update the “Last updated” date. If we make material changes, we will provide notice in the App or by other appropriate means when required. Continued use after the effective date of changes may constitute acceptance. If you do not agree, you must stop using the App and may cancel your subscription through your store account.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">15. Governing law and disputes</h2>
+					<p>These Terms are governed by the laws of North Macedonia, without regard to the United Nations Convention on Contracts for the International Sale of Goods, except where such a choice of law is not permitted, in which case local mandatory consumer law may apply. Courts in Skopje have exclusive jurisdiction, subject to any mandatory consumer rights in your country. If you are a consumer in the EEA, UK, or other regions, you may also benefit from mandatory local laws and complaint/ADR processes that apply to you.</p>
+				</div>
+
+				<div>
+					<h2 class="text-2xl font-bold text-white mb-4">16. Contact</h2>
+					<p>For questions about these Terms, please contact us at:</p>
+					<div class="mt-4 p-4 rounded-xl bg-white/5 border border-white/5">
+						<p class="font-medium text-white">Email Address:</p>
+						<a href="mailto:robert.gjoshevski@outlook.com" class="text-purple-400 hover:text-purple-300 transition-colors">robert.gjoshevski@outlook.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>
